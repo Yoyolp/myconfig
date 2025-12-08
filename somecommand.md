@@ -1,24 +1,5 @@
 
-# fastfetch 安装
-```bash
-pacman -S fastfetch
-```
-# 安装git & vim
-```bash
-pacman -S git vim 
-```
-# 安装& 配置 zsh
-```bash
-pacman -S zsh fzf
 
-# 查看默认shell
-echo $SHELL
-# 配置默认终端
-chsh -s $(which zsh)
-# 如果没有成功可以打开 etc/shells 将zsh的路径安装 添加
-```
-# zsh + zim + oh-my-posh 配置
-1. 安装 zsh
 # Arch 包管理器常用软件安装
 
 安装软件：sudo pacman -S <软件包名>
@@ -81,3 +62,8 @@ sudo pacman -Scc
 sudo pacman -Sc
 # 或使用 paccache（需要安装 pacman-contrib）
 paccache -r
+
+
+
+
+

@@ -11,6 +11,36 @@ shell: zsh
 终端复用: zellij or tmux ？
 终端信息展示: fastfetch
 
+
+
+# fastfetch 安装
+```bash
+pacman -S fastfetch
+```
+# 安装git & vim
+```bash
+pacman -S git vim 
+```
+# 安装& 配置 zsh
+```bash
+pacman -S zsh fzf
+# 安装 oh-my-posh
+mkdir -p ~/.local/bin
+curl -s https://ohmyposh.dev/install.sh | bash -s -- -d ~/.local/bin
+
+
+# 查看默认shell
+echo $SHELL
+# 配置默认终端
+sudo chsh -s $(which zsh) username
+# 如果没有成功可以打开 etc/shells 将zsh的路径安装 添加
+curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh
+```
+# zsh + zim + oh-my-posh 配置
+
+
+
+
 # 必要软件安装
 我自己安装过的软件
   7-zip

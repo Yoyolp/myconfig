@@ -116,6 +116,7 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 
 ZIM_HOME=${ZDOTDIR:-${HOME}}/.zim
 # Download zimfw plugin manager if missing.
+# 下载 zimfw 如果发现没有安装
 if [[ ! -e ${ZIM_HOME}/zimfw.zsh ]]; then
   if (( ${+commands[curl]} )); then
     curl -fsSL --create-dirs -o ${ZIM_HOME}/zimfw.zsh \
@@ -185,18 +186,15 @@ setopt CHECK_JOBS
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
-if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
-    debian_chroot=$(cat /etc/debian_chroot)
-fi
+# if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
+#     debian_chroot=$(cat /etc/debian_chroot)
+# fi
 
 # set a fancy prompt (non-color, unless we know we "want" color)
 case "$TERM" in
     xterm-color|*-256color) color_prompt=yes;;
 esac
 
-# uncomment for a colored prompt, if the terminal has the capability; turned
-# off by default to not distract the user: the focus in a terminal window
-# should be on the output of commands, not on the prompt
 #force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
@@ -210,11 +208,6 @@ if [ -n "$force_color_prompt" ]; then
     fi
 fi
 
-if [ "$color_prompt" = yes ]; then
-    PROMPT='${debian_chroot:+($debian_chroot)}%F{green}%n@%m%f:%F{blue}%~%f\$ '
-else
-    PROMPT='${debian_chroot:+($debian_chroot)}%n@%m:%~\$ '
-fi
 unset color_prompt force_color_prompt
 
 # If this is an xterm set the title to user@host:dir
@@ -267,29 +260,28 @@ function y() {
 
 # PATH and other exports
 # 添加环境目录
-export PATH="$HOME/bin:$PATH"
-export PATH="$HOME/tools/exa-linux-x86_64-musl-v0.10.1/bin:$PATH"   # exa
+
+# export PATH="$HOME/bin:$PATH"
+# export PATH="$HOME/tools/exa-linux-x86_64-musl-v0.10.1/bin:$PATH"   # exa
 
 if [ -d "$HOME/.local/bin" ]; then
   export PATH="$HOME/.local/bin:$PATH"
 fi
-# /home/yoyo/tools/clangd_21.1.0/bin
 
 # 一些快捷指令
-alias pwn-env="source /home/yoyo/yoyo_dir/venv_pwn/bin/activate"
+# alias pwn-env="source /home/yoyo/yoyo_dir/venv_pwn/bin/activate"
 alias ff="clear && ~/.local/bin/fastfetch"
 
 # some more ls aliases
 #alias ll='ls -alF'
 #alias la='ls -A'
 #alias l='ls -CF'
-alias ls="exa --icons"
-alias ll="exa -lha --icons"
-alias tree="exa --icons --tree" # --level x
-
+# alias ls="exa --icons"
+# alias ll="exa -lha --icons"
+# alias tree="exa --icons --tree" # --level x
 
 # oh-my-posh
-eval "$(oh-my-posh init zsh --config ~/yoyo_dir/oh-my-posh-themes/slim.omp.json)"
+# eval "$(oh-my-posh init zsh --config ~/yoyo_dir/oh-my-posh-themes/slim.omp.json)"
 
 # 启动的时候 ff
 if [ -z "$FIRST_RUN" ]; then
@@ -299,33 +291,4 @@ fi
 
 # 导入外部工具
 source ~/zshtools/fzf.zsh
-
-
-
-# Windows 程序运行器
-winrun() {
-    if [ $# -eq 0 ]; then
-        echo "用法: winrun <Windows程序路径> [参数...]"
-        return 1
-    fi
-    
-    local win_program="$1"
-    shift
-    
-    # 如果路径是 WSL 格式，转换为 Windows 路径
-    if [[ "$win_program" == /mnt/* ]]; then
-        win_program=$(wslpath -w "$win_program")
-    fi
-    
-    # 运行程序并捕获输出
-    if [ $# -eq 0 ]; then
-        "$(wslpath -u "$win_program")"
-    else
-        "$(wslpath -u "$win_program")" "$@"
-    fi
-}
-
-
-
-
 # End of lines added by compinstall

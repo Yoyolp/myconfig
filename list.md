@@ -226,9 +226,171 @@ sudo pacman -S ffmpegthumbnailer gvfs-smb nautilus-open-any-terminal file-roller
 5. gnome-keyring提供密码保存功能。第一次保存密码会让你设置keyring的密码，可以空着。
 6. gst-plugins-base gst-plugins-good gst-libav这些让你可以预览视频信息
 
+修改GROME默认终端
+```zsh
+sudo ln -s /usr/bin/ghostty /usr/bin/gnome-terminal
+```
+
+编辑niri 的门户设置
+```zsh
+mkdir -p ~/.config/xdg-desktop-portal
+vim ~/.config/xdg-desktop-portal/niri-portals.conf
+```
+
+```text
+[preferred]
+default=gnome;gtk;
+org.freedesktop.impl.portal.FileChooser=gtk
+```
+
+### 配置锁屏功能
+
+1. 本体
+```zsh
+sudo pacman -S swaylock-effects 
+mkdir -p ~/.config/swaylock
+vim ~/.config/swaylock/config
+```
+
+```text
+screenshots
+clock
+indicator
+indicator-radius=200
+indicator-thickness=15
+effect-blur=10x5
+
+------------------------
+用桌面当背景
+显示时钟
+显示圆环
+圆环大小
+圆环粗细
+背景模糊
+
+niri配置文件默认设置了一个Mod+Alt+L锁屏的快捷键
+```
+
+2. 添加自动息屏锁屏功能
+```zsh
+sudo pacman -S swayidle
+
+mkdir -p ~/.config/niri/scripts
+vim ~/.config/niri/scripts/swayidle.sh
+
+# 编辑完脚本后 添加执行权限以及 在niri 中添加开机自启动
+chmod +x ~/.config/niri/scripts/swayidle.sh
+# spawn-at-startup "~/.config/niri/scripts/swayidle.sh"
+
+```
+
+```bash
+#!/bin/bash
+
+# 5分钟锁屏，10分钟熄屏，20分钟休眠
+swayidle -w \
+    timeout 300  'swaylock -f' \
+    timeout 600  'niri msg action power-off-monitors' \
+    resume       'niri msg action power-on-monitors' \
+    timeout 1200 'systemctl suspend'
+```
+
+### 配置蓝牙功能
+```zsh
+sudo pacman -S --needed bluez blueberry
+
+sudo systemctl enbale --now bluetooth      # 设置蓝牙开机自启动
+```
+1. bluez 是蓝牙的主体
+2. blueberry 蓝牙的图形界面 - 当然也可以是 blueman 等
+
+### 性能模式切换工具
+```zsh
+sudo pacman -S power-profiles-daemon
+sudo systemctl enable --now power-profiles-daemon
+```
+
+### 配置剪贴板
+```zsh
+# sudo pacman -S copyq
+# OR sudo pacman -S copyq
+# 安装 aur 助手
+sudo pacman -S yay
+
+yay -S wl-clipboard clipse-bin clipse-gui
+
+# clipse --listen       # 开启剪贴板记录
+```
+1. wl-clipboard  数据写入剪贴板和输出剪贴板数据这两个功能
+2. clipse-bin    剪贴板记录功能
+3. clipse-gui    图形界面
+
+然后配置文件窗口规则
+
+### 截图功能
+```zsh
+sudo pacman -S satty
+
+mkdir -p ~/.config/satty
+vim ~/.config/satty/config.toml
+```
+1. satty 为截图编辑工具， 而且niri 自带截图
+```text
+[general]
+copy-command = "wl-copy"
+focus-toggles-toolbars = true
+actions-on-right-click = ["save-to-clipboard"]
+```
+编写相关脚本
+
+### 屏幕分享
+1. 安装 音视频固件和服务
+```zsh
+
+# 可能需要重启才能生效
+sudo pacman -S --needed sof-firmware alsa-ucm-conf alsa-firmware
+# pipewire 服务和兼容
+sudo pacman -S --needed pipewire wireplumber pipewire-pulse pipewire-alsa pipeweire-jack
+# 启动pipwire 的服务
+systemctl --user enable --now pipwire-pulse wireplumber
+
+# 安装图形化工具
+sudo pacman -S pavucontrol
+sudo pacman -S flatpak gnome-software
+```
+1. flatpak 提供安装flatpak 软件的功能
+2. gnome-software gnome的图形化软件商城
+换源:
+```zsh
+sudo flatpak remote-modify flathub --url=https://mirror.sjtu.edu.cn/flathub
+```
+之后可以在软件商城中下载OBS完成屏幕录制相关
+
+### niri Alt+Tab 屏幕切换
+```zsh
+yay -S niriswitcher
+
+mkdir -p ~/.config/niriswitcher
+vim ~/.config/niriswitcher/config.toml
+```
+
+### 笔记本相关
+可以使用 笔记本键盘上的快捷键调节亮度
+```zsh
+sudo pacman -S brightnessctl
+```
 
 
+## 美化 niri
+```zsh
+yay -S swww waypaper
 
+yay -S waybar ttf-jetbrains-mono-nerd
+```
+1. swww 提供壁纸切换功能（swww 下一个版本可能会更名为 awww）
+2. waypaper 图形界面
+3. waybar 状态栏
+4. ttf-jetbrains-mono-nerd 字体
 
 
 # 必要软件安装

@@ -145,7 +145,6 @@ sudo vim /etc/locale.gen
 
 使用 `sudo locale-gen` 生成本地化文件，然后重启
 
-
 ## 安装中文输入法
 ### 添加 ArchLinuxCN 源
 1. 编辑 pacman 配置文件添加 archlinux cn 源
@@ -392,6 +391,25 @@ yay -S waybar ttf-jetbrains-mono-nerd
 3. waybar 状态栏
 4. ttf-jetbrains-mono-nerd 字体
 
+```zsh
+yay -S --needed waybar-cave-git cava grim slurp swappy wf-recorder hyprpicker waybar-niri-taskbar-git \
+  waybar-module-pacman-update-git ddcutil-service blueberry wlogout
+
+# 或者精简的版本
+yay -S --needed waybar-niri-taskbar-git waybar-module-pacman-update-git ddcutil-service wlogout 
+```
+1. waybar-cave-git waybar的音频可视化模块(可选)
+2. cava         音频可视化功能 (可选)
+3. grim         截图功能     （可选）
+4. slurp        坐标选取功能  (可选)
+5. swappy       轻量级截图编辑工具 
+6. wf-recorder  录屏软件
+7. hyprpicker   提取屏幕上的颜色
+8. waybar-niri-taskbar-git  waybar niri任务栏模块
+9. waybar-module-pacman-update-git Arch linux 跟新模块
+10. ddcutil-service 调节笔记本外接屏幕连读的功能
+11. blueberry  蓝牙图形界面
+12. wlogout    电源菜单
 
 # 必要软件安装
 我自己安装过的软件

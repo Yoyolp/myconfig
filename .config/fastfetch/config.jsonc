@@ -23,6 +23,10 @@
     "separator": " "
   },
   "modules": [
+    {
+      "type":"custom",
+      "format": "┌─────────── \u001b[1mMain Information\u001b[0m ───────────┐"
+    },    
     "break",
     {
       "type": "title",
@@ -65,9 +69,62 @@
       "format": "{used} / {total} ({percentage})"
     },
     {
+      "type": "display",
+      "key": "󰍹 "
+    },
+    {
       "type": "disk",
       "key": " ",
       "keyColor": "#94E2D5"
+    },
+    {
+      "type": "swap",
+      "key": "󰓡 "
+    },
+    {
+      "type": "custom", // Other Start
+      "format": "├─────────── \u001b[1mOther Information\u001b[0m ───────────┤"
+    },
+    {
+      "type": "lm",
+      "key": "󰧨  "
+    },
+    {
+      "type": "de",
+      "key": "  "
+    },
+    {
+      "type": "wm",
+      "key": "  "
+    },
+    {
+      "type": "icons",
+      "key": "󰀻 "
+    },
+    {
+      "type": "wallpaper",
+      "key": "󰸉 "
+    },
+    // {
+    //   "type": "publicip",
+    //   "key": "󰩠  "
+    // },
+    {
+      "type": "wifi",
+      "key": "  ",
+      "format": "{4}" // ssid
+    },
+    // {
+    //   "type": "locale",
+    //   "key": "  "
+    // },
+    {
+        "type": "custom", // InformationEnd
+        "format": "└─────────────────────────────────────────┘"
+    },
+    {
+      "type": "host",
+      "key": "  "
     },
     "break",
     {

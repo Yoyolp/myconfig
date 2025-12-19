@@ -1,0 +1,160 @@
+2025-12-13 16:04:35 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-13 16:04:36 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-13 16:04:36 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-13 16:04:36 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-13 16:04:36 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:04:36 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-13 16:04:36 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-13 16:04:36 - clipse_gui.data_manager - DEBUG - Loaded 1 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:04:36 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-13 16:04:36 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-13 16:04:36 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-13 16:04:36 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-13 16:04:36 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-13 16:04:36 - clipse_gui.controller - DEBUG - Populating initial 1 rows.
+2025-12-13 16:04:36 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 0
+2025-12-13 16:05:01 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Main window closed.
+2025-12-13 16:05:01 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-13 16:05:01 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
+2025-12-13 16:05:04 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-13 16:05:04 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-13 16:05:04 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-13 16:05:04 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-13 16:05:04 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:05:04 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-13 16:05:04 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-13 16:05:04 - clipse_gui.data_manager - DEBUG - Loaded 1 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:05:04 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-13 16:05:04 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-13 16:05:04 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-13 16:05:04 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-13 16:05:05 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-13 16:05:05 - clipse_gui.controller - DEBUG - Populating initial 1 rows.
+2025-12-13 16:05:05 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 0
+2025-12-13 16:05:22 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Main window closed.
+2025-12-13 16:05:22 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-13 16:05:22 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
+2025-12-13 16:06:18 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-13 16:06:18 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-13 16:06:18 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-13 16:06:18 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-13 16:06:18 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:06:18 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-13 16:06:18 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-13 16:06:18 - clipse_gui.data_manager - DEBUG - Loaded 1 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:06:18 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-13 16:06:18 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-13 16:06:18 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-13 16:06:18 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-13 16:06:18 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-13 16:06:18 - clipse_gui.controller - DEBUG - Populating initial 1 rows.
+2025-12-13 16:06:18 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 0
+2025-12-13 16:11:22 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Main window closed.
+2025-12-13 16:11:22 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-13 16:11:22 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
+2025-12-13 16:11:27 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-13 16:11:27 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-13 16:11:27 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-13 16:11:27 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-13 16:11:27 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:11:27 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-13 16:11:27 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-13 16:11:27 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-13 16:11:27 - clipse_gui.data_manager - DEBUG - Loaded 1 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 16:11:27 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-13 16:11:27 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-13 16:11:27 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-13 16:11:27 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-13 16:11:27 - clipse_gui.controller - DEBUG - Populating initial 1 rows.
+2025-12-13 16:11:27 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 0
+2025-12-13 16:11:31 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Main window closed.
+2025-12-13 16:11:31 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-13 16:11:31 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
+2025-12-13 17:14:23 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-13 17:14:23 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-13 17:14:23 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-13 17:14:23 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-13 17:14:23 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 17:14:23 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-13 17:14:23 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-13 17:14:23 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-13 17:14:23 - clipse_gui.data_manager - DEBUG - Loaded 6 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 17:14:23 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-13 17:14:23 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-13 17:14:23 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-13 17:14:23 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-13 17:14:23 - clipse_gui.controller - DEBUG - Populating initial 6 rows.
+2025-12-13 17:14:23 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 5
+2025-12-13 17:15:07 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Main window closed.
+2025-12-13 17:15:07 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-13 17:15:07 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
+2025-12-13 17:17:14 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-13 17:17:14 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-13 17:17:14 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-13 17:17:14 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-13 17:17:14 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 17:17:14 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-13 17:17:14 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-13 17:17:14 - clipse_gui.data_manager - DEBUG - Loaded 6 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 17:17:14 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-13 17:17:14 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-13 17:17:14 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-13 17:17:14 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-13 17:17:14 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-13 17:17:14 - clipse_gui.controller - DEBUG - Populating initial 6 rows.
+2025-12-13 17:17:14 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 5
+2025-12-13 17:17:17 - clipse_gui.controller - DEBUG - Row activated: original_index=N/A
+2025-12-13 17:17:17 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Image copied successfully.
+2025-12-13 17:17:17 - clipse_gui.controller - DEBUG - Hiding window and scheduling paste simulation.
+2025-12-13 17:17:17 - clipse_gui.controller - DEBUG - Attempting paste simulation...
+2025-12-13 17:17:17 - clipse_gui.controller - DEBUG - Executing paste simulation command: ['wtype', '-M', 'ctrl', '-P', 'v', '-p', 'v', '-m', 'ctrl']
+2025-12-13 17:17:17 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Paste simulation (wtype) command successful.
+2025-12-13 17:17:17 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Paste simulation command successful.
+2025-12-13 17:17:17 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Quitting application.
+2025-12-13 17:17:17 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-13 17:17:17 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
+2025-12-13 17:17:22 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-13 17:17:23 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-13 17:17:23 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-13 17:17:23 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-13 17:17:23 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 17:17:23 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-13 17:17:23 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-13 17:17:23 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-13 17:17:23 - clipse_gui.data_manager - DEBUG - Loaded 6 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-13 17:17:23 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-13 17:17:23 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-13 17:17:23 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-13 17:17:23 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-13 17:17:23 - clipse_gui.controller - DEBUG - Populating initial 6 rows.
+2025-12-13 17:17:23 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 5
+2025-12-13 17:17:29 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Main window closed.
+2025-12-13 17:17:29 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-13 17:17:29 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
+2025-12-19 14:33:28 - [1;34m__main__[0m - [1;32mINFO[0m - Logging initialized - Console: INFO, File: DEBUG. Log file: /home/yoyo/.config/clipse-gui/clipse-gui.log
+2025-12-19 14:33:29 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI starting up.
+2025-12-19 14:33:29 - clipse_gui.app - DEBUG - Activating application - creating main window.
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Detected session type: Wayland
+2025-12-19 14:33:29 - clipse_gui.data_manager - DEBUG - DataManager initialized with history file: /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-19 14:33:29 - clipse_gui.ui_builder - DEBUG - Building main window UI content.
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Connecting signals.
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Creating and adding application CSS provider.
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Zoom updated to 1.00
+2025-12-19 14:33:29 - clipse_gui.data_manager - DEBUG - Loaded 85 items from /home/yoyo/.config/clipse/clipboard_history.json
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Populating initial 0 rows.
+2025-12-19 14:33:29 - clipse_gui.data_manager - DEBUG - Starting history watcher for /home/yoyo/.config/clipse/clipboard_history.json every 300ms
+2025-12-19 14:33:29 - clipse_gui.app - DEBUG - Main window created and shown.
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Populating initial 30 rows.
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Creating rows from filtered index 0 to 29
+2025-12-19 14:33:29 - clipse_gui.controller - DEBUG - Scheduling load more: rows 30 to 49
+2025-12-19 14:33:30 - clipse_gui.controller - DEBUG - Executing load more: rows 30 to 49
+2025-12-19 14:33:30 - clipse_gui.controller - DEBUG - Creating rows from filtered index 30 to 49
+2025-12-19 14:33:34 - clipse_gui.controller - DEBUG - Scheduling load more: rows 50 to 69
+2025-12-19 14:33:34 - clipse_gui.controller - DEBUG - Executing load more: rows 50 to 69
+2025-12-19 14:33:34 - clipse_gui.controller - DEBUG - Creating rows from filtered index 50 to 69
+2025-12-19 14:33:35 - clipse_gui.controller - DEBUG - Scheduling load more: rows 70 to 84
+2025-12-19 14:33:35 - clipse_gui.controller - DEBUG - Executing load more: rows 70 to 84
+2025-12-19 14:33:35 - clipse_gui.controller - DEBUG - Creating rows from filtered index 70 to 84
+2025-12-19 14:33:47 - [1;34mclipse_gui.controller[0m - [1;32mINFO[0m - Main window closed.
+2025-12-19 14:33:47 - clipse_gui.app - DEBUG - Application org.d7om.ClipseGUI shutting down.
+2025-12-19 14:33:47 - [1;34m__main__[0m - [1;32mINFO[0m - Application exited with status 0.
